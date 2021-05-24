@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Lato', sans-serif;
+}
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.nav-bar a {
+    text-decoration: none;
+    /* opacity: 0.8; */
+    color: black;
+
+}
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.navigation ul li {
+    opacity: 0.6;
+    padding: 10px 15px;
+    
+}
+.navigation ul li:hover {
+    text-decoration: underline;
+    opacity: 1.0;
+    cursor: pointer;
+    background-color: rgb(204,204,204);
+    padding: 10px 15px;
+}
+.right-side-nav-bar {
+    opacity: 0.6;
+    padding: 10px 15px;
+}
+.right-side-nav-bar:hover {
+    opacity: 1.0;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    padding: 10px 15px;
+}
+.back-pic-one {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)), url(img/messi-one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.back-pic-one .middle-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+.middle-logo img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+
+}
+.about-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 500px;
+}
+.about-section .abt {
+    margin-bottom: 20px;
+    color: rgb(119,119,119);
+    font-size: 24px;
+}
+.about-section .about-tag {
+    color: rgb(119,119,119);
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.about-section .about-details {
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(119,119,119);
+    margin-bottom: 20px;
+}
+.display-name-and-details {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.details-about-me {
+    flex: 0.5;
+    color: rgb(119,119,119);
+    font-size: 15px;
+    text-align: justify;
+}
+.head-name-and-pic {
+    flex: 0.5;
+    color: rgb(119,119,119);
+    font-size: 15px;
+}
+.head-name-and-pic i {
+    margin-right: 10px;
+}
+.head-name-and-pic img {
+   /* height: 50px; */
+   width: 100%;
+   margin-top: 50px;
+   opacity: 0.8;
+}
+.head-name-and-pic img:hover {
+    opacity: 1.0;
+}
+.good-at {
+    color: rgb(119,119,119);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+.skills-part {
+    text-align: left;
+
+}
+.dribbling, .vision, .goal-scoring {
+    font-size: 15px;
+    color: rgb(119,119,119);
+    margin-bottom: 10px;
+}
+.dribbling i, .vision i, .goal-scoring i{
+    margin-right: 10px;
+}
+.dribbling .dib, .vision .vis, .goal-scoring .goal{
+    letter-spacing: 5px;
+}
+.percentage-dribbling {
+    font-size: 15px;
+    background-color: rgb(97,97,97);
+    color: white;
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.percentage-vision {
+    font-size: 15px;
+    background-color: rgb(97,97,97);
+    color: white;
+    width: 99%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.percentage-goal-scoring {
+    font-size: 15px;
+    background-color: rgb(97,97,97);
+    color: white;
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.portfolio-panel-head {
+    background-color: rgb(97,97,97);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+    align-items: center;
+    text-align: center;
+}
+.portfolio-panel-head .numbers {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.portfolio-panel-head .lebel {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+
+}
+.portfolio-part {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(img/messi-five.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.port-tag {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 46px;
+    letter-spacing: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+.my-work {
+    background-color: #fff;
+    padding: 50px 500px;
+    text-align: center;
+}
+.my-work .my-work-head {
+    font-size: 24px;
+    color: rgb(119,119,119);
+    margin-bottom: 20px;
+}
+.my-work .my-work-tagline, .my-work .my-work-tagline-two {
+    font-size: 15px;
+    color: rgb(119,119,119);
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.my-work .my-work-tagline-two {
+    margin-bottom: 30px;
+}
+.pictures-panel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.pictures-panel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    
+}
+.pictures-panel img:hover {
+    filter: grayscale(50%);
+    cursor: pointer;
+}
+.load {
+    border: none;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+.load:hover {
+    background-color: rgb(204,204,204);
+    cursor: pointer;
+}
+.cont {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(img/messi-six-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.cont .contact-head {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 46px;
+    letter-spacing: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+.where-i-work .where-head {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgb(137,137,137);
+    font-size: 24px;
+}
+.where-i-work .where-tag {
+    color: rgb(137,137,137);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.right-left-contact {
+    padding: 50px 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.left-contact img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+.right-contact i {
+    margin-right: 5px;
+}
+.right-contact .first, .right-contact .second, .right-contact .third {
+    color: rgb(137,137,137);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.right-contact .fourth {
+    color: rgb(137,137,137);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.right-contact .name, .right-contact .email {
+    padding: 5px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+.right-contact .msg {
+    padding: 5px;
+    width: 95%;
+}
+.send-msg {
+ margin-top: 10px;
+ border: none; 
+ background-color: black;
+ color: white;
+ padding: 10px 15px;  
+}
+.button-send {
+    text-align: right;
+}
+.send-msg i {
+    margin-right: 5px;
+    
+}
+.send-msg:hover {
+    background-color: rgb(204,204,204);
+    color: black;
+    cursor: pointer;
+}
+.footer-part {
+    background-color: black;
+    padding: 70px;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+}
+.footer-part:hover {
+    opacity: 1.0;
+}
+.footer-part .to-the-top {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.footer-part .to-the-top a {
+    text-decoration: none;
+    color: black;
+}
+.footer-part .to-the-top:hover {
+    background-color: rgb(204,204,204);
+    color: black;
+    cursor: pointer;
+}
+.footer-part .to-the-top i {
+    margin-right: 5px;
+}
+.footer-part .socials {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.footer-part .socials i {
+    margin-right: 2px;
+}
+.footer-part .copyright {
+    font-size: 12px;
+}
